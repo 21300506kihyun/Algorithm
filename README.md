@@ -8,3 +8,13 @@
 > 2.adjacent list형태를 가지고, transposed graph형태로 변환하기.
 * adjacent list를 linked list형태로 구현함
 * sample data(hw6_data.txt) 첨부
+
+### 21300506_hw7.c
+Input file for above graph is named as ‘hw7.data’ and available at hisnet. Input file
+represents data in adjacency matrix form as in hw6. (There are white spaces – such as
+tab or space – between data.) Assume number of nodes in your graph is less than or
+equal to 30. Program outline is as follows.
+Read input file
+>Create array of adjacency list for a given graph
+>Apply Dijkstra's algorithm for |V| times and print result
+>Run Floyd’s algorithm and print result
